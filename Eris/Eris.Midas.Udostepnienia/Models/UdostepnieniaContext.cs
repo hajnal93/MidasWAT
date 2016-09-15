@@ -9,7 +9,7 @@ namespace Eris.Midas.Udostepnienia.Models
 {
     public class UdostepnieniaContext :BazowyErisContext
     {
-        public DbSet<Wniosek> Wnioski { get;  set; }
+        public DbSet<Wniosek> Wnioskikkkkk { get;  set; }
         public DbSet<KogoDotyczy> KogoDotyczy { get;  set; }
         public DbSet<CzegoDotyczy> CzegoDotyczy { get;  set; }
 
