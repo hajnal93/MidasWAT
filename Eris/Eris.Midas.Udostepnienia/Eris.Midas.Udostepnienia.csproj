@@ -127,6 +127,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CzegoDotyczy.cs" />
+    <Compile Include="Models\Enums\SposobNadeslaniaEnum.cs" />
+    <Compile Include="Models\Enums\StanWnioskuEnum.cs" />
+    <Compile Include="Models\Enums\TypDokumentuEnum.cs" />
+    <Compile Include="Models\KogoDotyczy.cs" />
+    <Compile Include="Models\UdostepnieniaContext.cs" />
+    <Compile Include="Models\Wniosek.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -208,7 +215,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
